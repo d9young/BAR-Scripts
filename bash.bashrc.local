@@ -1,9 +1,9 @@
 # add visible queue to PS1 prompt
 ## white text, light blue background
-#PS1="\e[94;07m[dsc]\e[0m:$PS1"
+#PS1="\[\e[94;07m[bar]\e[0m\]:$PS1"
 
 ## white text, red background
-PS1="\e[31;07m[dsc]\e[0m:$PS1"
+PS1="\[\e[31;07m[bar]\e[0m\]:$PS1"
 
 # add NetBackup directories to path (reference https://www.veritas.com/support/en_US/article.100016882.html)
 PATH=$PATH:/usr/openv/db/bin:/usr/openv/netbackup/bin:/usr/openv/netbackup/bin/goodies:/usr/openv/netbackup/bin/goodies/support:\
